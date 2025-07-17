@@ -33,19 +33,18 @@ This project is an end-to-end **Social Network Analytics (SNA)** and visualizati
 
 
 ## 📁 Project Structure
-
+```
 youtube-educators-sna/
 ├── app.py # Main Streamlit dashboard
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
 ├── data/
-│ ├── sample_dataset.csv # Sample dataset 
-│ └── README.md 
+│ ├── sample_dataset.csv # Sample dataset  
 ├── notebooks/
 │ └── data_collection.ipynb # Script to collect data using API
 
-
+```
 
 ## Features
 
