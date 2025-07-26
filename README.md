@@ -39,8 +39,6 @@ youtube-educators-sna/
 ├── requirements.txt
 ├── README.md
 ├── youtube_api_dataset.csv
-├── youtube_api_dataset.csv
-
 ```
 
 ## Features
@@ -93,7 +91,7 @@ A youtube_api__dataset.csv is provided to demonstrate functionality.
 
 - Get an API key from: https://console.developers.google.com
 
-- Open and run the notebooks/data_collection.ipynb
+- Run the python code to extract data using the api key
 
 - Save the dataset
 
