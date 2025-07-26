@@ -35,15 +35,10 @@ This project is an end-to-end **Social Network Analytics (SNA)** and visualizati
 ## 📁 Project Structure
 ```
 youtube-educators-sna/
-├── app.py # Main Streamlit dashboard
+├── youtube_analytics.py # Main Streamlit dashboard
 ├── requirements.txt
 ├── README.md
-├── .gitignore
-├── data/
-│ ├── sample_dataset.csv # Sample dataset  
-├── notebooks/
-│ └── data_collection.ipynb # Script to collect data using API
-
+├── youtube_api_dataset.csv 
 ```
 
 ## Features
@@ -58,6 +53,8 @@ youtube-educators-sna/
 
 
 ## Sample Visuals (Screenshots)
+
+Coming soon
 
 
 ## How to Run the App Locally
@@ -83,11 +80,11 @@ pip install -r requirements.txt
 4. **Run the app**
 
 ```bash
-streamlit run app.py
+streamlit run youtube_analytics.py
 ```
 
-## Sample Data
-A sample_dataset.csv is provided under the data/ folder to demonstrate functionality.
+## YouTube Data
+A youtube_api__dataset.csv is provided to demonstrate functionality.
 
 ## Using Your Own Dataset
 - You can collect your own dataset from YouTube using the Data API v3:
@@ -96,9 +93,9 @@ A sample_dataset.csv is provided under the data/ folder to demonstrate functiona
 
 - Open and run the notebooks/data_collection.ipynb
 
-- Save the dataset as data/youtube_api_dataset.csv
+- Save the dataset
 
-- Update the file path in app.py
+- Update the file path in youtube_analytics.py
 
 ## Future Enhancements
  - Automate real-time data collection
